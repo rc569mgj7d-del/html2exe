@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的 HTML 应用</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>🚀 你好，这是你的 HTML 应用</h1>
+      <p class="subtitle">已打包为轻量级 EXE（Neutralinojs）</p>
+    </header>
+    
+    <main>
+      <div class="card">
+        <h2>系统信息</h2>
+        <div id="sys-info">
+          <p>操作系统：<span id="os-name">加载中...</span></p>
+          <p>应用路径：<span id="app-path">加载中...</span></p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2>计数器</h2>
+        <div class="counter">
+          <button id="btn-minus">−</button>
+          <span id="count">0</span>
+          <button id="btn-plus">+</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2>操作</h2>
+        <button id="btn-open-url">打开网页</button>
+        <button id="btn-show-msg">弹出消息</button>
+      </div>
+    </main>
+    
+    <footer>
+      <p>打包大小约 <strong>1-2 MB</strong> | 基于系统自带 WebView</p>
+    </footer>
+  </div>
+
+  <!-- Neutralino.js 客户端库 -->
+  <script src="js/neutralino.js"></script>
+  <!-- 应用逻辑 -->
+  <script src="js/app.js"></script>
+</body>
+</html>
