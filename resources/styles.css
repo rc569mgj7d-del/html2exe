@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#app {
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 1.6em;
+  color: #e94560;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 0.9em;
+  color: #8899aa;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.card h2 {
+  font-size: 1.1em;
+  color: #e94560;
+  margin-bottom: 12px;
+}
+
+#sys-info p {
+  font-size: 0.9em;
+  margin: 6px 0;
+  color: #aabbcc;
+}
+
+#sys-info span {
+  color: #66ccff;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.counter button {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 1.4em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.counter button:hover {
+  background: #e94560;
+  border-color: #e94560;
+}
+
+#count {
+  font-size: 2em;
+  font-weight: bold;
+  min-width: 60px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin: 4px;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: #e94560;
+  border-color: #e94560;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #667788;
+}
+
+footer strong {
+  color: #e94560;
+}
