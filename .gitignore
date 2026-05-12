@@ -1,0 +1,16 @@
+# Developer tools' files
+.lite_workspace.lua
+
+# Neutralinojs binaries and builds
+/bin
+/dist
+
+# Neutralinojs client (auto-downloaded)
+resources/js/neutralino.js
+
+# Neutralinojs related files
+.storage
+*.log
+
+# Node modules
+node_modules/
